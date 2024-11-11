@@ -34,7 +34,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://sandervalcke.github.io/cdjdenderleeuw",
+    href: "https://github.com/sandervalcke/cdjdenderleeuw",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -42,25 +42,25 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://sandervalcke.github.io/cdjdenderleeuw",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://sandervalcke.github.io/cdjdenderleeuw",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
     href: "https://sandervalcke.github.io/cdjdenderleeuw",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:denderleeuw@coderdojobelgium.be",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "X",
