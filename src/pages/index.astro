@@ -48,7 +48,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         ontwikkelen en programmeren een superleuke, keigezellige en megatoffe leerervaring.
       </p>
       <p>
-        Lees blog posts of bekijk
+        Lees blog posts of bekijk de
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/satnaing/astro-paper#readme"
@@ -60,7 +60,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
             <Socials />
           </div>
         )
@@ -77,7 +76,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
-                  href={`/posts/${slug}/`}
+                  href={`${import.meta.env.BASE_URL}posts/${slug}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -98,7 +97,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ({ data, slug }, index) =>
                 index < SITE.postPerIndex && (
                   <Card
-                    href={`/posts/${slug}/`}
+                    href={`${import.meta.env.BASE_URL}posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
