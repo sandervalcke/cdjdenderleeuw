@@ -1,6 +1,6 @@
 ---
 author: Sander Valcke
-pubDatetime: 2024-11-11T22:04:00Z
+pubDatetime: 2024-11-11T21:29:45.546Z
 title: Dojo November 2024
 featured: true
 draft: false
