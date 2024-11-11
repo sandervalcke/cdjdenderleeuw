@@ -5,10 +5,7 @@ modDatetime: 2024-10-14T09:27:28.605Z
 title: How to configure AstroPaper theme
 slug: how-to-configure-astropaper-theme
 featured: true
-draft: false
-tags:
-  - configuration
-  - docs
+draft: true
 description: How you can make AstroPaper theme absolutely yours.
 ---
 

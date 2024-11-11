@@ -42,19 +42,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        CoderDojo organiseert gratis programmeerclubs, de zogenaamde "Dojo's". Op die Dojo's leren meisjes 
+        Welkom op de site van CoderDojo Denderleeuw! 
+
+        Bij CoderDojo organiseren we gratis programmeerclubs, de zogenaamde "Dojo's". Op die Dojo's leren meisjes 
         en jongens programmeren, websites maken, apps en spelletjes ontwikkelen enzovoort. Ze ontmoeten 
         gelijkgestemde deelnemers en laten elkaar zien waaraan ze gewerkt hebben. CoderDojo maakt van 
         ontwikkelen en programmeren een superleuke, keigezellige en megatoffe leerervaring.
-      </p>
-      <p>
-        Lees blog posts of bekijk de
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> voor meer informatie.
       </p>
       {
         // only display if at least one social link is enabled
@@ -72,7 +65,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Uitgelicht</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
