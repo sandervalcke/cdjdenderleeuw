@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { activeNav } = Astro.props;
-const base = new URL(Astro.site).pathname;
+const base = Astro.site ? new URL(Astro.site).pathname : '/cdjdenderleeuw/'
 ---
 
 <header>
