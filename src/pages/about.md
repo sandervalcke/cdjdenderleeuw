@@ -9,3 +9,7 @@ De eerstvolgende dojo te Denderleeuw is te vinden op [eventbrite](https://www.ev
 
 Voor alle vragen/opmerkingen/...: [email](mailto:denderleeuw@coderdojobelgium.be).
 Voor meer info over CoderDojo kan je terecht op de site van [CoderDojo Belgium](https://coderdojobelgium.be).
+
+De volgende dojo vind je op [hier](https://coderdojobelgium.be/nl/dojos?city=denderleeuw) (beetje naar onder scrollen).
+
+De data voor alle geplande dojo's vind je op [UitInVlaanderen](https://www.uitinvlaanderen.be/agenda?searchTerm=coderdojo+denderleeuw). Pas op, het is mogelijk dat deze data nog veranderen.
